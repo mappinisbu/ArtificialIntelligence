@@ -1,0 +1,8 @@
+-> All the source files are in the folder : PegSolitaire_110162023
+-> The source code is compiled and tested on Python 3.4
+-> to run any of the source file run the command:
+  - python.exe (sourcefile).py
+-> There is one source file on iterative, 2 on heuristics
+-> There is a testcases file for sample inputs
+-> OutputTrace file is attached to view the sample output
+-> The report is present in the AI AssignmentReport doc. Please refer to this, for reports and code documentation

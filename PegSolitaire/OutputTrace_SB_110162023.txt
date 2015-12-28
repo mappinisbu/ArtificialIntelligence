@@ -1,0 +1,187 @@
+*********************Iterative DFS******************************
+****************************************************************
+
+ Please enter the board configuration :<--XXX--,--XXX--,00XXX00,00X0X00,0000000,--000--,--000-->
+Given configuration of the board is :
+['-', '-', 'X', 'X', 'X', '-', '-']
+['-', '-', 'X', 'X', 'X', '-', '-']
+['0', '0', 'X', 'X', 'X', '0', '0']
+['0', '0', 'X', '0', 'X', '0', '0']
+['0', '0', '0', '0', '0', '0', '0']
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', '0', '0', '-', '-']
+-------------------------
+ The total number of pegs are: 11
+-------------------------
+ Starting to generate a solution . . .
+Execution time of the program:  0:00:01.913365
+--------------------------
+ There is a solution for the given game configuration
+-----------Solution------------
+<(9,11),(2,10),(0,2),(17,5),(2,10),(11,9),(4,16),(16,14),(3,15),(14,16)>
+------------------------
+ Number of Nodes expanded: 51913
+------------------------
+ Number of Moves made ( includes backtracking as well ) :103816
+------------------------
+ Memory consumed in Bytes: 1464
+-----------Program Ended------------
+
+
+****************************************************************
+No Solution:
+****************************************************************
+
+Given configuration of the board is :
+['-', '-', 'X', 'X', 'X', '-', '-']
+['-', '-', 'X', 'X', 'X', '-', '-']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['-', '-', 'X', 'X', 'X', '-', '-']
+['-', '-', 'X', 'X', 'X', '-', '-']
+-------------------------
+ The total number of pegs are: 33
+-------------------------
+ Starting to generate a solution . . .
+Execution time of the program:  0:00:00.015033
+--------------------------
+There is no solution for the given board configuration
+------------------------
+ Number of Nodes expanded: 0
+------------------------
+ Number of Moves made ( includes backtracking as well ) :0
+------------------------
+ Memory consumed in Bytes: 4352
+-----------Program Ended------------
+
+
+****************************************************************
+A* BFS (Manhattan)
+****************************************************************
+ Please enter the board configuration :<--000--,--0X0--,00XXX00,0XXXXX0,XXXXXXX,--000--,--000-->
+Given configuration of the board is :
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', 'X', '0', '-', '-']
+['0', '0', 'X', 'X', 'X', '0', '0']
+['0', 'X', 'X', 'X', 'X', 'X', '0']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', '0', '0', '-', '-']
+-------------------------
+ The total number of pegs are: 16
+-------------------------
+ Starting to generate a solution . . .
+
+Execution time of the program:  0:00:09.904172
+--------------------------
+ There is a solution for the given game configuration
+-----------Solution------------
+<(21,7),(25,11),(15,3),(10,8),(3,15),(23,21),(20,22),(22,8),(7,9),(9,23),(23,25),(26,24),(24,10),(11,9),(4,16)>
+------------------------
+ Number of Nodes expanded: 64858
+------------------------
+ Number of Moves made ( includes backtracking as well ) :129701
+------------------------
+ Memory consumed in Bytes: 184
+
+
+-----------Program Ended------------
+
+****************************************************************
+A* BFS (Pagoda heuristic)
+****************************************************************
+ Please enter the board configuration :<--000--,--0X0--,00XXX00,0XXXXX0,XXXXXXX,--000--,--000-->
+Given configuration of the board is :
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', 'X', '0', '-', '-']
+['0', '0', 'X', 'X', 'X', '0', '0']
+['0', 'X', 'X', 'X', 'X', 'X', '0']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', '0', '0', '-', '-']
+-------------------------
+ The total number of pegs are: 16
+-------------------------
+ Starting to generate a solution . . .
+
+Execution time of the program:  0:00:00.415299
+--------------------------
+ There is a solution for the given game configuration
+-----------Solution------------
+<(15,3),(9,11),(17,29),(26,24),(29,17),(3,5),(22,24),(20,22),(11,25),(25,23),(22,24),(24,10),(5,17),(17,15),(14,16)>
+------------------------
+ Number of Nodes expanded: 2500
+------------------------
+ Number of Moves made ( includes backtracking as well ) :4985
+------------------------
+ Memory consumed in Bytes: 184
+
+
+-----------Program Ended------------
+
+****************************************************************
+A* BFS (Random heuristic)
+****************************************************************
+
+ Please enter the board configuration :<--000--,--0X0--,00XXX00,0XXXXX0,XXXXXXX,--000--,--000-->
+Given configuration of the board is :
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', 'X', '0', '-', '-']
+['0', '0', 'X', 'X', 'X', '0', '0']
+['0', 'X', 'X', 'X', 'X', 'X', '0']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['-', '-', '0', '0', '0', '-', '-']
+['-', '-', '0', '0', '0', '-', '-']
+-------------------------
+ The total number of pegs are: 16
+-------------------------
+ Starting to generate a solution . . .
+
+Execution time of the program:  0:00:00.003007
+--------------------------
+ There is a solution for the given game configuration
+-----------Solution------------
+<(17,19),(9,7),(15,27),(20,22),(23,9),(26,12),(9,11),(25,23),(12,10),(27,15),(14,16),(23,9),(10,8),(7,9),(4,16)>
+------------------------
+ Number of Nodes expanded: 16
+------------------------
+ Number of Moves made ( includes backtracking as well ) :17
+------------------------
+ Memory consumed in Bytes: 184
+
+
+-----------Program Ended------------
+
+****************************************************************
+A* DFS (Pagoda heuristic)
+****************************************************************
+
+Please enter the board configuration :<--XXX--,--XXX--,XXXXXXX,XXX0XXX,XXXXXXX,--XXX--,--XXX-->
+Given configuration of the board is :
+['-', '-', 'X', 'X', 'X', '-', '-']
+['-', '-', 'X', 'X', 'X', '-', '-']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', '0', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['-', '-', 'X', 'X', 'X', '-', '-']
+['-', '-', 'X', 'X', 'X', '-', '-']
+-------------------------
+ The total number of pegs are: 32
+-------------------------
+ Starting to generate a solution . . .
+
+Execution time of the program:  0:18:29.016161
+--------------------------
+ There is a solution for the given game configuration
+-----------Solution------------
+<(4,16),(7,9),(0,8),(2,0),(9,7),(6,8),(10,2),(12,10),(15,3),(0,8),(13,15),(15,3),(17,5),(2,10),(19,17),(17,5),(27,15),(20,22),(22,8),(3,15),(15,17),(24,10),(5,17),(26,24),(23,25),(32,24),(17,29),(30,32),(32,24),(25,23),(28,16)>
+------------------------
+ Number of Nodes expanded: 7022154
+------------------------
+ Number of Moves made ( includes backtracking as well ) :14044277
+------------------------
+ Memory consumed in Bytes: 184
+
+
+-----------Program Ended------------

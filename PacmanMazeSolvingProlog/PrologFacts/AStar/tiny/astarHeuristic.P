@@ -1,0 +1,16 @@
+h(cell10, 7).
+h(cell4, 7).
+h(cell4, 6).
+h(cell4, 6).
+h(cell4, 5).
+h(cell4, 5).
+h(cell4, 4).
+h(cell4, 4).
+h(cell4, 3).
+h(cell4, 3).
+h(cell4, 2).
+h(cell4, 2).
+h(cell4, 3).
+h(cell4, 1).
+h(cell4, 3).
+h(cell4, 0).

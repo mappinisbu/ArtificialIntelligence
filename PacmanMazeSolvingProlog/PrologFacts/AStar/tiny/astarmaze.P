@@ -1,0 +1,17 @@
+connected(start, cell10, south).
+connected(start, cell4, west).
+connected(cell10, cell15, south).
+connected(cell4, cell3, west).
+connected(cell15, cell14, west).
+connected(cell3, cell2, west).
+connected(cell14, cell19, south).
+connected(cell2, cell1, west).
+connected(cell19, cell18, west).
+connected(cell1, cell6, south).
+connected(cell18, cell17, west).
+connected(cell6, cell11, south).
+connected(cell17, cell12, north).
+connected(cell17, cell22, south).
+connected(cell11, cell12, east).
+connected(cell22, cell21, west).
+goal(cell21, null).

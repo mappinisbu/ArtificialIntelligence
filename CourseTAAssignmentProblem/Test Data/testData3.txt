@@ -1,0 +1,37 @@
+CSE101, Tue, 11:30 AM, Th, 10:00 AM
+CSE110, Mon, 1:00 PM, Fri, 1:00 PM
+CSE114, Mon, 8:00 AM, Wed, 8:00 AM, Fri, 8:00 AM
+CSE306, Tue, 2:30 PM, Th, 2:30 PM
+CSE307, Mon, 4:00 PM, Wed, 4:00 PM
+
+CSE306, Mon, 2:30 PM
+CSE307, Fri, 4:00 PM
+
+CSE306, 36, no
+CSE307, 21, no
+
+CSE101, Java, C#, Awesome Hacking Skills
+CSE306, C, C++, Java, JavaScript, JSP, Python, C#
+CSE307, C, C++, Java, JavaScript, JSP, Python, C#, Awesome Hacking Skills, Security, Networking, Data structures
+
+TA1, Mon, 2:30 PM
+TA2, Wed, 2:30 PM
+TA3, Tue, 2:30 PM
+TA4, Mon, 1:00 PM
+TA5, Mon, 8:00 AM
+TA6, Fri, 10:00 AM
+TA7, Wed, 8:00 AM
+TA8, Wed, 10:00 AM
+TA9, Mon, 1:00 PM
+TA10, Mon, 12:00 PM
+
+TA1, C, C++, Java, JavaScript
+TA2, Java, JavaScript, JSP, Python
+TA3, Java, JavaScript, JSP
+TA4, C, C++, Python
+TA5, Java, JavaScript, JSP, Python
+TA6, C, C++, Java, JavaScript, JSP, Python
+TA7, C, C++, Java, JavaScript, JSP, Python
+TA8, C, C++, Java, JavaScript, JSP, Python
+TA9, JSP, Python
+TA10, C, JSP, Python

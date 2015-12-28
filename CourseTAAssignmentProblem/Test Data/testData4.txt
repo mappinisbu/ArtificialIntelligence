@@ -1,0 +1,37 @@
+CSE114, Mon, 8:00 AM, Wed, 8:00 AM, Fri, 8:00 AM
+CSE214, Mon, 12:00 PM, Wed, 12:00 PM, Fri, 12:00 PM
+CSE215, Mon, 2:30 PM, Wed, 2:30 PM
+CSE260, Tue, 11:30 AM, Th, 11:30 AM
+CSE305, Mon, 4:00 PM, Wed, 4:00 PM
+CSE535, Mon, 1:00 PM, FRI, 1:00 PM
+
+CSE305, Tue, 11:30 AM
+CSE535, Wed, 1:00 PM
+
+CSE114, 80, yes
+CSE214, 26, no
+CSE215, 40, no
+CSE260, 50, yes
+CSE305, 63, yes
+CSE535, 45, yes
+
+CSE114, C, Java, JavaScript, JSP, Python, C#, Hacking Skills, Security, Networking
+CSE214, C, C++, Java, JavaScript, Networking, Data structures
+CSE215, Hacking Skills, Security, Networking, Data structures
+CSE260, Hacking Skills, Security, Networking, Data structures
+CSE305, C, C++, Java, JavaScript, JSP, Python
+CSE535, C, C++, Java, JavaScript, JSP, Python, Security, Networking, Data structures
+
+TA1, Wed, 8:30 AM
+TA2, Wed, 12:30 PM
+TA3, Tue, 2:30 PM
+TA4, Mon, 1:00 PM
+TA5, Mon, 8:00 AM
+TA6, Fri, 10:00 AM
+
+TA1, C, C++, Java, JavaScript
+TA2, Java, JavaScript, JSP, Python,
+TA3, C Java, JavaScript, JSP, Security
+TA4, C, C++, Python
+TA5, Java, JavaScript, JSP, Python
+TA6, C, C++, Java, JavaScript, JSP, Python, Security
